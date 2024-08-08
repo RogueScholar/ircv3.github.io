@@ -391,8 +391,8 @@
           - external
           - plain
     - name: senpai
-      # ref: https://git.sr.ht/~taiite/senpai/tree/master/item/irc/session.go#L47
-      link: https://git.sr.ht/~taiite/senpai
+      # ref: https://git.sr.ht/~delthas/senpai/tree/master/item/irc/session.go#L53
+      link: https://git.sr.ht/~delthas/senpai
       support:
         stable:
           away-notify:
@@ -403,14 +403,17 @@
           channel-context-client-tag:
           chathistory:
           echo-message:
+          extended-monitor:
           invite-notify:
+          labeled-response: Git
           message-tags:
+          monitor:
           multi-prefix:
           sasl-3.1:
           sasl-3.2:
           server-time:
           setname:
-          standard-replies: Git
+          standard-replies:
           typing-client-tag:
           whox:
         SASL:
@@ -438,8 +441,10 @@
         stable:
           account-notify:
           away-notify:
+          batch:
           cap-3.1:
           invite-notify:
+          multi-prefix:
           sasl-3.1:
           server-time:
         SASL:
@@ -1199,13 +1204,17 @@
           chghost: 1.9.0+
           echo-message: 1.9.0+
           extended-join: 1.9.0+
+          extended-monitor: 1.10.0+
           invite-notify: 1.9.0+
           message-tags: 1.9.0+
+          msgid: 1.9.0+
           monitor: 1.9.2+
           sasl-3.1: 1.9.2+
           sasl-3.2: 1.9.2+
           server-time: 1.9.0+
           setname: 1.9.0+
+          standard-replies: 1.10.0+
+          userhost-in-names: 1.10.0+
           whox: 1.9.0+
           typing-client-tag: 1.9.0+
         SASL:
@@ -1219,6 +1228,7 @@
       link: https://github.com/progval/Limnoria
       support:
         stable:
+          account-extban:
           account-notify:
           account-registration:
           account-tag:
